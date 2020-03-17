@@ -1,0 +1,34 @@
+:root {
+  --main-bg-color: #9D3153;
+  --main-text-color: #FFDD93;
+  --main-bg-gray: #f8f8f8;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: var(--main-bg-gray);
+}
+
+.botui-app-container {
+  padding-top: 10vh;
+  height: 80vh;
+}
+
+.botui-app-container .botui-container {
+  background: var(--main-bg-gray);
+}
+
+div.botui-message div.botui-message-content.text {
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+.vinoez-module {
+  text-align: center;
+}
+
+.vinoez-module p:nth-child(1) {
+  font-weight: bold;
+  color: var(--main-text-color);
+}
